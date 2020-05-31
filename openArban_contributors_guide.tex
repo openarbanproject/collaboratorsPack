@@ -1,0 +1,33 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\author{openArbanProject}
+\title{Guidelines For Contribution}
+\begin{document}
+\maketitle
+This is an initial list of guidelines for those wishing to contribute to the openArbanProject.
+In order for us to have consistent appearance of both the PDFs and Lilypond files that the project distributes it is important for us to have a few ground rules for anything that is submitted to the project. It will also help for anyone who uses the Lilypond files in future to know what to expect when they open them up.
+\\For ease there is a basic template that can be downloaded from the openArbanProject website.
+\\Here are the basic rules, hopefully in not too random an order:
+
+\begin{itemize}
+\item All music is written in Lilypond (hopefully obvious by now).
+\item Stick to chosen fonts. Consistency of appearance when PDFs are rendered is essential to having your code accepted. Lato is available from Google Fonts or many Linux distribution package mangers.
+\item Base exercises on the 1893 edition of the method because it is out of copyright! This is kind of the point of all this...
+\item When you share your work you must share the .ly source file. Sharing pre-rendered PDFs alone is no better than pirated copies of published editions of Arban's book.
+\item It's usually best to use relative mode, please.
+\item Notes should be written in short phrases, not more than four bars per line.
+\item When helpful add white space for patterns of code that repeat in different keys (see Exercises 9+10 from initial exercises for reference. Notice that it's easy to see the repeating pattern).
+\item Licence statement and oAP dedication must be included on each PDF. In the case of multiple page documents, such as with the Characteristic Studies, the license should only be included once at the bottom of the last page.
+\item Short exercises can and should be grouped onto one page, but don't allow stray lines on a second page. White space at the bottom of a page containing fewer exercises is better. Remember - if people want a different layout then they can edit the pages themselves after downloading.
+\item Whenever you can only fit one exercise on a page use title = "EXERCISE X" and composer = " " entries in the global header to get a better spaced layout at the top of the page. In the case of multiple exercises per page, each new exercise is a new score, and should contain its own header section that includes a piece = "EXERCISE X" instead of either of the above.
+\item Please do not include cautionary accidentals and do remove key signatures that appear at the ends of lines. It looks messy and is only a convention for pandering to people who aren't paying attention. In a book of exercises a player should play the exercises enough times that not knowing what's about to happen shouldn't be a problem. Almost everything in this book is just patterns that can be learnt without reading every note anyway.
+\item Don't over articulate. "sim." is a glorious marking. See initial exercises for reference.
+\item If in doubt, leave it out. Plain notes that users can add to is better than too much detail that differs from the original text.
+\end{itemize}
+
+Learning Lilypond is a steep learning curve. Start with the provided templates but feel free to improve them and share back to the community.
+\\Although the initial goal of the project is the openArban book, any public domain music can be added to the library. The long term vision of the project is for the creation of generic score code that empowers musicians to learn through the creation of their own interpretations of original works.
+\par Most importantly of all: Have fun!
+\end{document}
