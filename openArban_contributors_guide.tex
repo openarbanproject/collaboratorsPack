@@ -1,9 +1,11 @@
 \documentclass[12pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
-\usepackage{amsfonts}
-\usepackage{amssymb}
+\usepackage[top=25mm, left=25mm, right=25mm, bottom=25mm]{geometry}
+\usepackage{utopia}
+
 \author{openArbanProject}
 \title{Guidelines For Contribution}
+
 \begin{document}
 \maketitle
 This is an initial list of guidelines for those wishing to contribute to the openArbanProject.
@@ -16,7 +18,9 @@ In order for us to have consistent appearance of both the PDFs and Lilypond file
 \item Stick to chosen fonts. Consistency of appearance when PDFs are rendered is essential to having your code accepted. Lato is available from Google Fonts or many Linux distribution package mangers.
 \item Base exercises on the 1893 edition of the method because it is out of copyright! This is kind of the point of all this...
 \item When you share your work you must share the .ly source file. Sharing pre-rendered PDFs alone is no better than pirated copies of published editions of Arban's book.
-\item It's usually best to use relative mode, please.
+\item All scores need to be use English language mode for consistency.
+\item It's usually best to use relative mode, though there have been exceptions.
+\item Do not include barlines. This means you actually have to turn them off for every score.
 \item Notes should be written in short phrases, not more than four bars per line.
 \item When helpful add white space for patterns of code that repeat in different keys (see Exercises 9+10 from initial exercises for reference. Notice that it's easy to see the repeating pattern).
 \item Licence statement and oAP dedication must be included on each PDF. In the case of multiple page documents, such as with the Characteristic Studies, the license should only be included once at the bottom of the last page.
